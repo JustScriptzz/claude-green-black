@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- === SYSTEM / COMPAT COLORS === -->
+    <color name="abc_decor_view_status_guard">#ff000000</color>
+    <color name="abc_decor_view_status_guard_light">#ff0a0a0a</color>
+    <color name="abc_search_url_text_normal">#ff00cc44</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">#ff00ff55</color>
+    <color name="accentMain100">#ff00cc44</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="androidx_core_ripple_material_light">#2200ff44</color>
+    <color name="androidx_core_secondary_text_default_material_light">#8a00cc44</color>
+    <color name="background_floating_material_light">#ff0d1a0d</color>
+    <color name="background_material_light">#ff050f05</color>
+
+    <!-- === CLAUDE APP BRAND COLORS — RETHEMED === -->
+    <color name="bg100">#ff030d03</color>
+    <color name="bg300">#ff071407</color>
+    <color name="claudeClay">#ff00cc44</color>
+    <color name="claudeManilla">#ff0d2e0d</color>
+    <color name="claude_widget_button_ripple">#2200ff55</color>
+    <color name="oat">#ff0a1e0a</color>
+
+    <!-- === TEXT COLORS === -->
+    <color name="text100">#ffe8ffe8</color>
+    <color name="text300">#ffb0ffb0</color>
+    <color name="text500">#ff66aa66</color>
+
+    <!-- === MATERIAL SYSTEM — DARK GREEN PALETTE === -->
+    <color name="bright_foreground_disabled_material_dark">#80e8ffe8</color>
+    <color name="bright_foreground_disabled_material_light">#8000cc44</color>
+    <color name="bright_foreground_material_dark">#ffe8ffe8</color>
+    <color name="bright_foreground_material_light">#ff00cc44</color>
+    <color name="button_material_light">#ff0d2e0d</color>
+
+    <!-- === NOTIFICATIONS === -->
+    <color name="call_notification_answer_color">#ff00cc44</color>
+    <color name="call_notification_decline_color">#ffcc0022</color>
+
+    <!-- === UPSELL / CCR === -->
+    <color name="ccr_upsell_device_body">#ffe8ffe8</color>
+    <color name="ccr_upsell_device_screen">#ff071407</color>
+
+    <!-- === GOOGLE SIGN-IN (leave functional) === -->
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1f000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#9000cc44</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1f000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#9000cc44</color>
+    <color name="common_google_signin_btn_text_light_pressed">#de00cc44</color>
+
+    <!-- === DESIGN SYSTEM OVERRIDES === -->
+    <color name="design_default_color_background">#ff030d03</color>
+    <color name="design_default_color_error">#ffcc0022</color>
+    <color name="design_default_color_on_background">#ffe8ffe8</color>
+    <color name="design_default_color_on_error">#ffe8ffe8</color>
+    <color name="design_default_color_on_primary">#ff000000</color>
+    <color name="design_default_color_on_secondary">#ff000000</color>
+    <color name="design_default_color_on_surface">#ffe8ffe8</color>
+    <color name="design_default_color_primary">#ff00cc44</color>
+    <color name="design_default_color_primary_dark">#ff008822</color>
+    <color name="design_default_color_primary_variant">#ff008822</color>
+    <color name="design_default_color_secondary">#ff00ff88</color>
+    <color name="design_default_color_secondary_variant">#ff00cc55</color>
+    <color name="design_default_color_surface">#ff071407</color>
+    <color name="design_snackbar_background_color">#ff0d2e0d</color>
+    <color name="error_color_material_light">#ffcc0022</color>
+
+    <!-- === FOREGROUND === -->
+    <color name="foreground_material_dark">#ffe8ffe8</color>
+    <color name="foreground_material_light">#ff00cc44</color>
+
+    <!-- === GLANCE / WIDGET === -->
+    <color name="glance_colorBackground">#ff030d03</color>
+    <color name="glance_colorError">#ffcc0022</color>
+    <color name="glance_colorErrorContainer">#ff1a0005</color>
+    <color name="glance_colorOnBackground">#ffe8ffe8</color>
+    <color name="glance_colorOnError">#ffe8ffe8</color>
+    <color name="glance_colorOnErrorContainer">#ffffaaaa</color>
+    <color name="glance_colorOnPrimary">#ff000000</color>
+    <color name="glance_colorOnPrimaryContainer">#ffe8ffe8</color>
+    <color name="glance_colorOnSecondary">#ff000000</color>
+    <color name="glance_colorOnSecondaryContainer">#ffe8ffe8</color>
+    <color name="glance_colorOnSurface">#ffe8ffe8</color>
+    <color name="glance_colorOnSurfaceInverse">#ff030d03</color>
+    <color name="glance_colorOnSurfaceVariant">#ffb0ffb0</color>
+    <color name="glance_colorOnTertiary">#ff000000</color>
+    <color name="glance_colorOnTertiaryContainer">#ffe8ffe8</color>
+    <color name="glance_colorOutline">#ff336633</color>
+    <color name="glance_colorPrimary">#ff00cc44</color>
+    <color name="glance_colorPrimaryContainer">#ff0d3d0d</color>
+    <color name="glance_colorPrimaryInverse">#ff003311</color>
+    <color name="glance_colorSecondary">#ff00ff88</color>
+    <color name="glance_colorSecondaryContainer">#ff0d2e0d</color>
+    <color name="glance_colorSurface">#ff071407</color>
+    <color name="glance_colorSurfaceInverse">#ffe8ffe8</color>
+    <color name="glance_colorSurfaceVariant">#ff0a1e0a</color>
+    <color name="glance_colorTertiary">#ff00ffaa</color>
+    <color name="glance_colorTertiaryContainer">#ff0d2e1a</color>
+    <color name="glance_colorWidgetBackground">#ff030d03</color>
+    <color name="highlighted_text_material_light">#6600cc44</color>
+
+    <!-- === M3 REFERENCE PALETTE — GREEN/BLACK === -->
+    <color name="m3_ref_palette_error10">#ff410005</color>
+    <color name="m3_ref_palette_error100">#ffe8ffe8</color>
+    <color name="m3_ref_palette_error40">#ffcc0022</color>
+    <color name="m3_ref_palette_error90">#ff330008</color>
+    <color name="m3_ref_palette_neutral10">#ff0a1a0a</color>
+    <color name="m3_ref_palette_neutral100">#ffe8ffe8</color>
+    <color name="m3_ref_palette_neutral20">#ff0d2e0d</color>
+    <color name="m3_ref_palette_neutral87">#ffaaddaa</color>
+    <color name="m3_ref_palette_neutral90">#ffb8ffb8</color>
+    <color name="m3_ref_palette_neutral92">#ffccffcc</color>
+    <color name="m3_ref_palette_neutral94">#ffd5ffd5</color>
+    <color name="m3_ref_palette_neutral95">#ffdcffdc</color>
+    <color name="m3_ref_palette_neutral96">#ffe0ffe0</color>
+    <color name="m3_ref_palette_neutral98">#ffe8ffe8</color>
+    <color name="m3_ref_palette_neutral99">#fff0fff0</color>
+    <color name="m3_ref_palette_neutral_variant30">#ff1a4a1a</color>
+    <color name="m3_ref_palette_neutral_variant50">#ff336633</color>
+    <color name="m3_ref_palette_neutral_variant80">#ff88cc88</color>
+    <color name="m3_ref_palette_neutral_variant90">#ffaaddaa</color>
+    <color name="m3_ref_palette_primary10">#ff002210</color>
+    <color name="m3_ref_palette_primary100">#ffe8ffe8</color>
+    <color name="m3_ref_palette_primary30">#ff007722</color>
+    <color name="m3_ref_palette_primary40">#ff00cc44</color>
+    <color name="m3_ref_palette_primary80">#ff99ffbb</color>
+    <color name="m3_ref_palette_primary90">#ffccffe0</color>
+    <color name="m3_ref_palette_secondary10">#ff001a0a</color>
+    <color name="m3_ref_palette_secondary100">#ffe8ffe8</color>
+    <color name="m3_ref_palette_secondary30">#ff005522</color>
+    <color name="m3_ref_palette_secondary40">#ff00aa44</color>
+    <color name="m3_ref_palette_secondary80">#ff88ffcc</color>
+    <color name="m3_ref_palette_secondary90">#ffccffe8</color>
+    <color name="m3_ref_palette_tertiary10">#ff001a10</color>
+    <color name="m3_ref_palette_tertiary100">#ffe8ffe8</color>
+    <color name="m3_ref_palette_tertiary30">#ff006633</color>
+    <color name="m3_ref_palette_tertiary40">#ff00aa55</color>
+    <color name="m3_ref_palette_tertiary80">#ff88ffdd</color>
+    <color name="m3_ref_palette_tertiary90">#ffccffee</color>
+
+    <!-- === M3 SYSTEM TOKENS — DARK MODE SURFACE === -->
+    <color name="m3_sys_color_dark_on_background">@color/m3_ref_palette_neutral90</color>
+    <color name="m3_sys_color_dark_on_surface">@color/m3_ref_palette_neutral90</color>
+    <color name="m3_sys_color_dark_on_surface_variant">@color/m3_ref_palette_neutral_variant80</color>
+    <color name="m3_sys_color_dark_primary">@color/m3_ref_palette_primary80</color>
+    <color name="m3_sys_color_light_background">@color/m3_ref_palette_neutral10</color>
+    <color name="m3_sys_color_light_error">@color/m3_ref_palette_error40</color>
+    <color name="m3_sys_color_light_error_container">@color/m3_ref_palette_error90</color>
+    <color name="m3_sys_color_light_inverse_on_surface">@color/m3_ref_palette_neutral10</color>
+    <color name="m3_sys_color_light_inverse_primary">@color/m3_ref_palette_primary30</color>
+    <color name="m3_sys_color_light_inverse_surface">@color/m3_ref_palette_neutral90</color>
+    <color name="m3_sys_color_light_on_background">@color/m3_ref_palette_neutral90</color>
+    <color name="m3_sys_color_light_on_error">@color/m3_ref_palette_error100</color>
+    <color name="m3_sys_color_light_on_error_container">@color/m3_ref_palette_error10</color>
+    <color name="m3_sys_color_light_on_primary">@color/m3_ref_palette_primary10</color>
+    <color name="m3_sys_color_light_on_primary_container">@color/m3_ref_palette_primary100</color>
+    <color name="m3_sys_color_light_on_secondary">@color/m3_ref_palette_secondary10</color>
+    <color name="m3_sys_color_light_on_secondary_container">@color/m3_ref_palette_secondary100</color>
+    <color name="m3_sys_color_light_on_surface">@color/m3_ref_palette_neutral90</color>
+    <color name="m3_sys_color_light_on_surface_variant">@color/m3_ref_palette_neutral_variant80</color>
+    <color name="m3_sys_color_light_on_tertiary">@color/m3_ref_palette_tertiary10</color>
+    <color name="m3_sys_color_light_on_tertiary_container">@color/m3_ref_palette_tertiary100</color>
+    <color name="m3_sys_color_light_outline">@color/m3_ref_palette_neutral_variant50</color>
+    <color name="m3_sys_color_light_outline_variant">@color/m3_ref_palette_neutral_variant30</color>
+    <color name="m3_sys_color_light_primary">@color/m3_ref_palette_primary40</color>
+    <color name="m3_sys_color_light_primary_container">@color/m3_ref_palette_primary10</color>
+    <color name="m3_sys_color_light_secondary">@color/m3_ref_palette_secondary40</color>
+    <color name="m3_sys_color_light_secondary_container">@color/m3_ref_palette_secondary10</color>
+    <color name="m3_sys_color_light_surface">@color/m3_ref_palette_neutral10</color>
+    <color name="m3_sys_color_light_surface_bright">@color/m3_ref_palette_neutral20</color>
+    <color name="m3_sys_color_light_surface_container">@color/m3_ref_palette_neutral20</color>
+    <color name="m3_sys_color_light_surface_container_high">@color/m3_ref_palette_neutral20</color>
+    <color name="m3_sys_color_light_surface_container_highest">@color/m3_ref_palette_neutral_variant30</color>
+    <color name="m3_sys_color_light_surface_container_low">@color/m3_ref_palette_neutral10</color>
+    <color name="m3_sys_color_light_surface_container_lowest">@color/m3_ref_palette_neutral10</color>
+    <color name="m3_sys_color_light_surface_dim">@color/m3_ref_palette_neutral10</color>
+    <color name="m3_sys_color_light_surface_variant">@color/m3_ref_palette_neutral_variant30</color>
+    <color name="m3_sys_color_light_tertiary">@color/m3_ref_palette_tertiary40</color>
+    <color name="m3_sys_color_light_tertiary_container">@color/m3_ref_palette_tertiary10</color>
+    <color name="m3_sys_color_on_primary_fixed">@color/m3_ref_palette_primary10</color>
+    <color name="m3_sys_color_on_primary_fixed_variant">@color/m3_ref_palette_primary30</color>
+    <color name="m3_sys_color_on_secondary_fixed">@color/m3_ref_palette_secondary10</color>
+    <color name="m3_sys_color_on_secondary_fixed_variant">@color/m3_ref_palette_secondary30</color>
+    <color name="m3_sys_color_on_tertiary_fixed">@color/m3_ref_palette_tertiary10</color>
+    <color name="m3_sys_color_on_tertiary_fixed_variant">@color/m3_ref_palette_tertiary30</color>
+    <color name="m3_sys_color_primary_fixed">@color/m3_ref_palette_primary90</color>
+    <color name="m3_sys_color_primary_fixed_dim">@color/m3_ref_palette_primary80</color>
+    <color name="m3_sys_color_secondary_fixed">@color/m3_ref_palette_secondary90</color>
+    <color name="m3_sys_color_secondary_fixed_dim">@color/m3_ref_palette_secondary80</color>
+    <color name="m3_sys_color_tertiary_fixed">@color/m3_ref_palette_tertiary90</color>
+    <color name="m3_sys_color_tertiary_fixed_dim">@color/m3_ref_palette_tertiary80</color>
+
+    <!-- === MATERIAL LEGACY === -->
+    <color name="material_deep_teal_500">#ff00cc44</color>
+    <color name="material_grey_100">#ff0a1a0a</color>
+    <color name="material_grey_50">#ff071407</color>
+    <color name="material_grey_600">#ff336633</color>
+    <color name="mtrl_scrim_color">#aa000000</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#6b00cc44</color>
+    <color name="mtrl_textinput_disabled_color">#1f00cc44</color>
+    <color name="mtrl_textinput_focused_box_stroke_color">#ff00ff55</color>
+    <color name="mtrl_textinput_hovered_box_stroke_color">#de00cc44</color>
+
+    <!-- === MISC === -->
+    <color name="notification_action_color_filter">@color/androidx_core_secondary_text_default_material_light</color>
+    <color name="notification_icon_bg_color">#ff005522</color>
+    <color name="primary_dark_material_light">@color/material_grey_600</color>
+    <color name="primary_material_light">@color/material_grey_100</color>
+    <color name="primary_text_default_material_dark">#ffe8ffe8</color>
+    <color name="primary_text_default_material_light">#de00cc44</color>
+    <color name="primary_text_disabled_material_dark">#4de8ffe8</color>
+    <color name="primary_text_disabled_material_light">#3900cc44</color>
+    <color name="ripple_material_light">#2200cc44</color>
+    <color name="secondary_text_default_material_dark">#b3b0ffb0</color>
+    <color name="secondary_text_default_material_light">#8a00cc44</color>
+    <color name="secondary_text_disabled_material_dark">#36b0ffb0</color>
+    <color name="secondary_text_disabled_material_light">#2400cc44</color>
+    <color name="switch_thumb_disabled_material_light">#ff336633</color>
+    <color name="switch_thumb_normal_material_light">#ff00cc44</color>
+    <color name="tooltip_background_dark">#e6001a0a</color>
+</resources>
